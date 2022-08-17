@@ -1,0 +1,190 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+}
+
+body {
+
+
+    background-color: rgb(199, 199, 199);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 10px;
+
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(199, 199, 199);
+}
+
+tr:nth-child(odd) {
+    background-color: #9882db;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-success {
+
+    background-color: #5c469e; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.btn-ss {
+
+    background-color: #5c469e; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+
+}
+
+.btn-success button:hover {
+
+    background-color: #2892D7; /* Green */
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+}
+
+/* UTILITIES */
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5c469e;
+    color: #CDD3CE;
+}
+
+.nav-links a {
+    color: #CDD3CE;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #2892D7;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+
+.button_grn {
+    background: #5c469e;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+
+
+}
+
+.button_grn button:hover {
+    opacity: .8;
+    background: #2892D7;
+}
+
+
+.nyakt h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+}
+
+
+.nyakt label {
+    color: #000000;
+    font-size: 25px;
+
+}
+
+.nyakt input {
+    display: block;
+    border: 2px solid #000000;
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+
+.nyakt button {
+    background: #5c469e;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.nyakt button:hover {
+    opacity: .8;
+    background: #2892D7;
+}
+
+.nyakt ::placeholder {
+    font-size: 14px;
+    color: #000000;
+}
+
+

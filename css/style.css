@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(199, 199, 199);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5c469e;
+    color: #CDD3CE;
+}
+
+.nav-links a {
+    color: #CDD3CE;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #2892D7;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+
+#title_id h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+}
+
+.login_page h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+}
+
+.login_page {
+    text-align: center;
+}
+
+.login_page label {
+    color: #000000;
+    font-size: 25px;
+
+}
+
+.login_page input {
+    display: block;
+    border: 2px solid #000000;
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+
+.login_page button {
+    background: #5c469e;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.login_page button:hover {
+    opacity: .8;
+    background: #2892D7;
+}
+
+.login_page ::placeholder {
+    font-size: 14px;
+    color: #000000;
+}
+
+.button_grn {
+    background: #5c469e;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+
+
+}
+
+.button_grn button:hover {
+    opacity: .8;
+    background: #2892D7;
+}
+
+

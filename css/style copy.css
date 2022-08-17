@@ -1,0 +1,63 @@
+
+
+.login_page h2 {
+    text-align: center;
+    color: #395B50;
+    font-size: 40px;
+}
+
+.login_page {
+    text-align: center;
+}
+.login_page label {
+    color: #395B50;
+    font-size: 25px;
+
+}
+.login_page input {
+    display: block;
+    border: 2px solid #2C4533;
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.login_page button {
+    background: #395B50;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.login_page button:hover{
+    opacity:.8;
+    background: #2C4533;
+}
+
+.login_page ::placeholder {
+    font-size: 14px;
+    color: #395B50;
+}
+
+.button_grn  {
+    background: #395B50;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+   
+   
+
+}
+.button_grn button:hover{
+    opacity:.8;
+    background: #2C4533;
+}
+
+
